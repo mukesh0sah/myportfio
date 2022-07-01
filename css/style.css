@@ -1,0 +1,130 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+
+}
+
+.nav-list{
+    width: 50%;  
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    
+    
+
+
+}
+
+.nav-list li{
+    list-style: none;
+    margin-left: 2%;
+    padding: 2%;
+    align-items: center;
+    
+
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: aliceblue;
+
+
+}
+
+.nav-list li a:hover{
+    color: red;
+
+
+}
+
+
+
+.rightNav{
+    /* background-color:aqua; */
+    width: 50%;
+    text-align: center;
+
+    
+
+
+}
+
+.logo{
+
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 33%;
+   border: 3px solid wheat;
+   border-radius: 50px;
+
+
+}
+
+#search{
+    margin-top: 5px;
+    
+}
+
+.background{
+    background: rgba(0,0, 0, 0.7) url('../img/main.jpg');
+    background-blend-mode: darken;
+
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: white;/ */
+}
+
+.firstHalf{
+    margin: 250px;
+    margin-left: 300px;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color:chocolate;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    
+
+}
+
+#country{
+    color: rgb(170, 191, 52);
+    text-align: center;
+}
+
+#name{
+    
+    color: rgb(239, 10, 155);
+}
+
+
+.secondHalf{
+    width: 30%;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+
+
+
+
